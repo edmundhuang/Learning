@@ -5,3 +5,4 @@
 * [Angular](./Angular/readme.md)
 * [ASP.NET Core](./netCore/readme.md)
 * [WPF](./wpf/readme.md)
+* [Git](./git/readme.md)
