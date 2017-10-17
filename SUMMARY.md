@@ -6,3 +6,4 @@
 * [ASP.NET Core](./netCore/readme.md)
 * [WPF](./wpf/readme.md)
 * [Git](./git/readme.md)
+* [jQuery](./jQuery/readme.md)
