@@ -1,6 +1,7 @@
 # ASP.NET Core 相关资源
 
 * [Entity Framework Core](./EF.md)
+* [文件上传](./fileUpload.md)
 
 ## 前端相关
 1. [ASP.NET Core - Using JQuery DataTables](http://coderocks.co/2017/01/10/aspnetCore-Using-JQuery-DataTables/)

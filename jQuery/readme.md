@@ -1,5 +1,7 @@
 # jQuery
 
+* [Datatable 组件](./datatable.md)
+
 1. Datatable 組件
 
 ``` text
@@ -18,6 +20,15 @@ http://localhost:50465//Home/AjaxGetJsonData?draw=1&columns[0][data]=Name&column
         …
         {"Name":"Name_00010","Age":"45","DoB":"06/11/1970"}
     ]
+}
+```
+> 注意事项: recordsFiltered不是返回分页记录数，而是返回类似recordsTotal的总记录数（过滤后）
+
+```javascript
+{
+    data: null,
+    className: "center",
+    defaultContent: '<a href="#"><i class="fa fa-info fa-fw"></i> 查看</a> &nbsp;&nbsp; | <a href="#"><i class="fa fa-pencil fa-fw"></i> 編輯</a> &nbsp;&nbsp; | &nbsp;&nbsp;<a href="#"><i class="fa fa-trash-o fa-fw"></i> 刪除</a>'
 }
 ```
 
