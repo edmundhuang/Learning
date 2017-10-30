@@ -6,3 +6,15 @@
 git remote add origin https://github.com/edmundhuang/Learning.git  
 git push -u origin master
 ```
+
+已有项目
+Step 1: Switch to your repository's directory
+```bash
+cd /path/to/your/repo
+```
+
+Step 2: Connect your existing repository to Bitbucket
+```bash
+git remote add origin https://edmundhuang@bitbucket.org/edmundhuang/temple.git
+git push -u origin master
+```
