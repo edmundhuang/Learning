@@ -19,5 +19,12 @@
 开源地址：[Github](https://github.com/1217950746/Arthas-WPFUI)
 ![arthas_1.png](./images/arthas_1.png)
 
-3. []
+## 知识点  
+1. [数据绑定](./binding.md)
+
+## UI 风格  
+1. [Material Design](./materialDesign.md)
+
+## 其他  
+1. [Fody](./fody.md)
 
