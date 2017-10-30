@@ -23,4 +23,4 @@
 ## 参考资料
 1. [EF Core for Enterprise](https://www.codeproject.com/Articles/1160586/EF-Core-for-Enterprise)
 
-
+2. [Learn Entity Framework Core](http://www.learnentityframeworkcore.com/)
