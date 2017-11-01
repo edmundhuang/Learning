@@ -20,10 +20,12 @@
 ![arthas_1.png](./images/arthas_1.png)
 
 ## 知识点  
+1. [WPF 需知](./common.md)
 1. [数据绑定](./binding.md)
 
 ## UI 风格  
 1. [Material Design](./materialDesign.md)
+2. [mahapps.metro](,/mahMetro.md)
 
 ## 其他  
 1. [Fody](./fody.md)
