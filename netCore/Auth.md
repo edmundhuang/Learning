@@ -7,3 +7,7 @@
 5. [How to achieve a bearer token authentication and authorization in ASP.NET Core](https://code.msdn.microsoft.com/How-to-achieve-a-bearer-9448db57)
 6. [如何使用 ASP.NET Core Web API 授权 Angular 2 应用](https://code.msdn.microsoft.com/How-to-authorization-914d126b)
 7. [Securing ASP.NET Web API using Custom Token Based Authentication](https://www.codeproject.com/Articles/1183150/Securing-ASP-NET-Web-API-using-Custom-Token-Based)
+
+8. [MSDN: Secure a backend web API](https://docs.microsoft.com/en-us/azure/architecture/multitenant-identity/web-api)
+
+9. [User Authentication with Angular and ASP.NET Core](https://fullstackmark.com/post/10/user-authentication-with-angular-and-asp-net-core)

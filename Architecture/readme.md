@@ -19,3 +19,9 @@ Missing points
 * Localization
 * Input validation
 * Filtering, grouping, sorting, paging of list items
+
+2. [Traditional N-tier Architecture Application](https://code.msdn.microsoft.com/windowsdesktop/Traditional-N-tier-80f841c2)  
+![sa-3.png](./Images/sa-3.png)
+
+3. [Northwind N-Tier Blueprint Application Using WPF/WCF/LINQ to SQL](https://www.codeproject.com/Articles/26826/Northwind-N-Tier-Blueprint-Application-Using-WPF-W)
+
