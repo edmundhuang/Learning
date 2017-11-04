@@ -1,5 +1,7 @@
 # ASP.NET Core 相关资源
 
+1. [缓存](./Cache.md)
+
 * [Entity Framework Core](./EF.md)
 * [文件上传](./fileUpload.md)
 * [Authentication /Authorization](./Auth.md)

@@ -25,3 +25,17 @@ Missing points
 
 3. [Northwind N-Tier Blueprint Application Using WPF/WCF/LINQ to SQL](https://www.codeproject.com/Articles/26826/Northwind-N-Tier-Blueprint-Application-Using-WPF-W)
 
+4. [Layered Architecture]  
+    * Presentation
+    WPF views, user controls, custom controls, resources, styles, templates, etc. 
+    * Application
+    Controler,ViewModel, Interface, etc.
+    * Domain
+    * Business Infrastructure
+    * Technical Services
+    * Foundation
+
+(https://github.com/jbe2277/waf/wiki/Layered-Architecture)
+![layered-architecture.png](./Images/layered-architecture.png)
+
+5.

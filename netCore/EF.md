@@ -24,3 +24,12 @@
 1. [EF Core for Enterprise](https://www.codeproject.com/Articles/1160586/EF-Core-for-Enterprise)
 
 2. [Learn Entity Framework Core](http://www.learnentityframeworkcore.com/)
+
+3.  [Architecture of Business Layer working with Entity Framework (Core and v6) – revisited](http://www.thereformedprogrammer.net/architecture-of-business-layer-working-with-entity-framework-core-and-v6-revisited/)
+
+4. [JonPSmith/GenericServices](https://github.com/JonPSmith/GenericServices)
+GenericServices helps with building a service/application layer in a .NET based application using EF6.x
+## Profile
+1. [How-To Profile Entity Framework Core](https://miniprofiler.com/dotnet/HowTo/ProfileEFCore)
+2. [cross-app-profiling-demo](https://github.com/teddymacn/cross-app-profiling-demo)
+
