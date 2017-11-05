@@ -38,4 +38,7 @@ Missing points
 (https://github.com/jbe2277/waf/wiki/Layered-Architecture)
 ![layered-architecture.png](./Images/layered-architecture.png)
 
-5.
+5. [Domain Driven Design (DDD) architecture layer design for CRUD operation](http://www.pinfaq.com/1478/domain-driven-design-architecture-layer-design-operation)
+
+![ddd architecture diagram1.png](./Images/ddd_architecture_diagram1.png)
+![Create_Operation_Flow_Diagram.png](./Images/Create_Operation_Flow_Diagram.png)

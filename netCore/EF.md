@@ -33,3 +33,15 @@ GenericServices helps with building a service/application layer in a .NET based 
 1. [How-To Profile Entity Framework Core](https://miniprofiler.com/dotnet/HowTo/ProfileEFCore)
 2. [cross-app-profiling-demo](https://github.com/teddymacn/cross-app-profiling-demo)
 
+## Mock and Faking
+1. [Create test data with NBuilder and Faker](http://www.jerriepelser.com/blog/creating-test-data-with-nbuilder-and-faker/)
+
+2. [BOGUS](https://github.com/bchavez/Bogus)  / [faker.js](https://github.com/marak/Faker.js/)  
+可以基于语言生成假数据。
+[Sample](https://rawgit.com/Marak/faker.js/master/examples/browser/index.html)
+![FakeJs](./Images/FakeJs.png)
+
+## Generic 
+1. [Generic Repository Pattern in ASP.NET Core](https://code.msdn.microsoft.com/Generic-Repository-Pattern-f133bca4)
+
+2. [A Truly Generic Repository, Part 1](https://cpratt.co/truly-generic-repository/)
