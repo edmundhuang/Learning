@@ -18,6 +18,12 @@
        };
 ```
 
+2. 关于FluentAPI hasColumnName 的问题
+需要引用 Microsoft.EntityFrameworkCore.Relational
+```
+install-package Microsoft.EntityFrameworkCore.Relational
+```
+
 代码中，可以看到 EF Core 支持对时间字段 ```c.EventTime``` 取属性 ```Date```，得到只包含日期的字段，用于分组。
 
 ## 参考资料

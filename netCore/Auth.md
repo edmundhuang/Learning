@@ -11,3 +11,6 @@
 8. [MSDN: Secure a backend web API](https://docs.microsoft.com/en-us/azure/architecture/multitenant-identity/web-api)
 
 9. [User Authentication with Angular and ASP.NET Core](https://fullstackmark.com/post/10/user-authentication-with-angular-and-asp-net-core)
+
+10.[Securing and securely calling Web API and [Authorize](https://blogs.msdn.microsoft.com/martinkearn/2015/03/25/securing-and-securely-calling-web-api-and-authorize/)
+
