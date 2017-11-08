@@ -25,7 +25,8 @@
 
 ## 知识点  
 1. [WPF 需知](./common.md)
-1. [数据绑定](./binding.md)
+2. [数据绑定](./binding.md)
+3. [FAQ](./faq.md)
 
 ## UI 风格  
 1. [Material Design](./materialDesign.md)
