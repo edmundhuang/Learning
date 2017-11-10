@@ -1,10 +1,12 @@
 # ASP.NET Core 相关资源
 
 1. [缓存](./Cache.md)
+2. [Entity Framework Core](./EF.md)
+3. [文件上传](./fileUpload.md)
+4. [Authentication /Authorization](./Auth.md)
+5. [Linq](./Linq.md)
+6. [Json](./JSON.md)
 
-* [Entity Framework Core](./EF.md)
-* [文件上传](./fileUpload.md)
-* [Authentication /Authorization](./Auth.md)
 
 ## 前端相关
 1. [ASP.NET Core - Using JQuery DataTables](http://coderocks.co/2017/01/10/aspnetCore-Using-JQuery-DataTables/)

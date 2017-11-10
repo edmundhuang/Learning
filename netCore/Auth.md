@@ -14,3 +14,4 @@
 
 10.[Securing and securely calling Web API and [Authorize](https://blogs.msdn.microsoft.com/martinkearn/2015/03/25/securing-and-securely-calling-web-api-and-authorize/)
 
+11. [Create a RESTful API with authentication using Web API and Jwt](https://www.developerhandbook.com/c-sharp/create-restful-api-authentication-using-web-api-jwt/)
