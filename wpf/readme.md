@@ -28,6 +28,7 @@
 2. [数据绑定](./binding.md)
 3. [FAQ](./faq.md)
 4. [MVVM](./mvvm.md)
+5. [Virtualization Data](./Virtualization.md)
 
 ## UI 风格  
 1. [Material Design](./materialDesign.md)
