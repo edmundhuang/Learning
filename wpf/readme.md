@@ -27,6 +27,9 @@
 1. [WPF 需知](./common.md)
 2. [数据绑定](./binding.md)
 3. [FAQ](./faq.md)
+4. [MVVM](./mvvm.md)
+5. [Virtualization Data](./Virtualization.md)
+6. [Debouncing and Throttling Dispatcher Events](./debouncing.md)
 
 ## UI 风格  
 1. [Material Design](./materialDesign.md)

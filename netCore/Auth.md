@@ -14,8 +14,11 @@
 
 10.[Securing and securely calling Web API and [Authorize](https://blogs.msdn.microsoft.com/martinkearn/2015/03/25/securing-and-securely-calling-web-api-and-authorize/)
 
-11. [ASP.NET Core Authorization Lab](https://github.com/blowdart/AspNetAuthorizationWorkshop)
+11. [Create a RESTful API with authentication using Web API and Jwt](https://www.developerhandbook.com/c-sharp/create-restful-api-authentication-using-web-api-jwt/)
 
+12. [ASP.NET MVC Web API Identity (OWIN Security): Auto Login after Register + Custom Login Service Endpoint](http://www.nakov.com/blog/2014/12/22/webapi-owin-identity-custom-login-service/)
+
+13. [ASP.NET Core Authorization Lab](https://github.com/blowdart/AspNetAuthorizationWorkshop)
 
 ### 第一步 添加 [Authorize] 特性
 在 MVC 中添加此特性，将导致 500错误，除非指定 Authentication 选项
