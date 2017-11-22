@@ -14,3 +14,54 @@
 
 10.[Securing and securely calling Web API and [Authorize](https://blogs.msdn.microsoft.com/martinkearn/2015/03/25/securing-and-securely-calling-web-api-and-authorize/)
 
+11. [ASP.NET Core Authorization Lab](https://github.com/blowdart/AspNetAuthorizationWorkshop)
+
+
+### 第一步 添加 [Authorize] 特性
+在 MVC 中添加此特性，将导致 500错误，除非指定 Authentication 选项
+``` cs
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+        .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
+            options =>
+            {
+                options.LoginPath = new PathString("/Account/Login/");
+                options.AccessDeniedPath = new PathString("/Account/Forbidden/");
+            });
+    services.AddMvc();
+}
+// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+public void Configure(IApplicationBuilder app)
+{
+    app.UseAuthentication();
+    app.UseMvc(routes =>
+    {
+        routes.MapRoute(
+             name: "default",
+             template: "{controller=Home}/{action=Index}/{id?}");
+    });
+}
+```
+
+### 第二步 
+强制要求所有请求需要验证
+```
+public void ConfigureServices(IServiceCollection services)
+{
+    services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+        .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme,
+            options =>
+            {
+                options.LoginPath = new PathString("/Account/Login/");
+                options.AccessDeniedPath = new PathString("/Account/Forbidden/");
+            });    
+    services.AddMvc(config =>
+    {
+        var policy = new AuthorizationPolicyBuilder()
+                         .RequireAuthenticatedUser()
+                         .Build();
+        config.Filters.Add(new AuthorizeFilter(policy));
+    });
+}
+```
