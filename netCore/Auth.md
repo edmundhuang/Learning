@@ -15,3 +15,5 @@
 10.[Securing and securely calling Web API and [Authorize](https://blogs.msdn.microsoft.com/martinkearn/2015/03/25/securing-and-securely-calling-web-api-and-authorize/)
 
 11. [Create a RESTful API with authentication using Web API and Jwt](https://www.developerhandbook.com/c-sharp/create-restful-api-authentication-using-web-api-jwt/)
+
+12. [ASP.NET MVC Web API Identity (OWIN Security): Auto Login after Register + Custom Login Service Endpoint](http://www.nakov.com/blog/2014/12/22/webapi-owin-identity-custom-login-service/)
