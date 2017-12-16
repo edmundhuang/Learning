@@ -19,3 +19,5 @@ All MVVM/XAML applications should have a similar directory structure. The follow
   * MyView.xaml
   * Dialogs
     * SelectItemDialog.xaml
+
+2. [Devexpress MVVM 2013](https://community.devexpress.com/blogs/wpf/archive/2013/08/29/getting-started-with-devexpress-mvvm-framework-commands-and-view-models.aspx)
