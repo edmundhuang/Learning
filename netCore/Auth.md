@@ -20,6 +20,8 @@
 
 13. [ASP.NET Core Authorization Lab](https://github.com/blowdart/AspNetAuthorizationWorkshop)
 
+14. [Authentication In A Dot Net Core API](https://pioneercode.com/post/authentication-in-an-asp-dot-net-core-api-part-3-json-web-token)
+
 ### 第一步 添加 [Authorize] 特性
 在 MVC 中添加此特性，将导致 500错误，除非指定 Authentication 选项
 ``` cs
