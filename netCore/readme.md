@@ -6,7 +6,7 @@
 4. [Authentication /Authorization](./Auth.md)
 5. [Linq](./Linq.md)
 6. [Json](./JSON.md)
-
+7. [异常](./Exception.md)
 
 ## 前端相关
 1. [ASP.NET Core - Using JQuery DataTables](http://coderocks.co/2017/01/10/aspnetCore-Using-JQuery-DataTables/)
