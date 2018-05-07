@@ -42,3 +42,6 @@ Missing points
 
 ![ddd architecture diagram1.png](./Images/ddd_architecture_diagram1.png)
 ![Create_Operation_Flow_Diagram.png](./Images/Create_Operation_Flow_Diagram.png)
+
+6. [Implementing CQRS/ES in ASP.NET](https://www.exceptionnotfound.net/implementing-cqrs-in-net-part-1-architecting-the-application/)
+[Real-World CQRS/ES with ASP.NET and Redis Part 1 - Overview](https://www.exceptionnotfound.net/real-world-cqrs-es-with-asp-net-and-redis-part-1-overview/)
