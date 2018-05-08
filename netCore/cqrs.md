@@ -18,3 +18,5 @@ This means that an object is persisted as a stream of events. There is no need a
 * The `apply` function - 应用函数  
 ![Apply](./images/es-apply.svg)  
 * 
+
+2. [浅谈命令查询职责分离(CQRS)模式](https://www.cnblogs.com/yangecnu/p/Introduction-CQRS.html)
