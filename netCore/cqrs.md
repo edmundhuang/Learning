@@ -1,5 +1,7 @@
 # CQRS - Command Query Responsibility Segregation，命令查询职责分离模式
 
+0. [CQRS和Event Sourcing系列（一）：论精益与领域设计](http://edisonxu.com/2017/03/17/lean-and-ddd.html)
+
 1. [12 Things You Should Know About Event Sourcing](http://blog.leifbattermann.de/2017/04/21/12-things-you-should-know-about-event-sourcing/)
 * An event is something that has happened in the past - 事件是发生在过去的事情。
 * An event should be presented as a verb in past tense - 事件应该用过去式表达 
@@ -20,3 +22,10 @@ This means that an object is persisted as a stream of events. There is no need a
 * 
 
 2. [浅谈命令查询职责分离(CQRS)模式](https://www.cnblogs.com/yangecnu/p/Introduction-CQRS.html)
+
+# Cruial CQRS
+1. Query
+Frontend < -- > Web API (Controller) < -- > Manager
+
+2. Command
+Frontend < -- > Web API (Controller) < -- > CommandBus(Command) < -- > CommandHandler < -- > Repository < -- > DbContext
