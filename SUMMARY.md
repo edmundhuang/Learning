@@ -8,6 +8,7 @@
 * [Dotnet](./dotnet/readme.md)
 * [NET Core](./netCore/readme.md)
 * [WPF](./wpf/readme.md)
+* [Blazor](./blazor/readme.md)
 * [Xamarin](./xamarin/readm.md)
 * [Git](./git/readme.md)
 * [jQuery](./jQuery/readme.md)
@@ -15,3 +16,4 @@
 * [Com](./com/readme.md)
 * [Devexpers](./devexpress/readme.md)
 * [系统管理](./system/readme.md)
+* [网站书签](./bookmark/readme.md)
