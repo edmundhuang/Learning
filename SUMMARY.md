@@ -20,3 +20,5 @@
 * [Android 开发](./Android/readme.md)
 * [Linux](./linux/readme.md)
 * [HTML5](./html5/readme.md)
+* [Azure](./azure/readme.md)
+* [Docker](./docker/readme.md)
