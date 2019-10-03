@@ -12,6 +12,7 @@
 10. [Swagger](./swagger.md)
 11. [Identity Server](./ids4.md)
 12. [Deploy](./deploy.md)
+13. [SignalR](./signalR.md)
 
 
 ## 前端相关
