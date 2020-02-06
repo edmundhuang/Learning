@@ -47,3 +47,5 @@
 2. [ViewModel First WPF](https://edongashi.blog/2017/08/11/building-material-design-wpf-applications-an-introduction-to-viewmodel-first-routing/)
 
 3. [Dynamic XAML: View Composer](https://gallery.technet.microsoft.com/Dynamic-XAML-View-Composer-8d9fa5d6)
+
+4. [How to record a video with C# – WPF and AForge](https://www.mesta-automation.com/how-to-record-a-video-with-c-wpf-and-aforge/)

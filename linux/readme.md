@@ -1,5 +1,8 @@
 # Linux 常见问题
 
+1. [安装CentOS](,/CentOS.md)
+
+### Tips
 1. 如何查看系统版本  
 ```
 cat /etc/*release
