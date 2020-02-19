@@ -1,5 +1,9 @@
 # Authentication and Authorization
 
+
+
+### Reference
+
 1. [Secure ASP.NET Web API using API Key Authentication – HMAC Authentication](http://bitoftech.net/2014/12/15/secure-asp-net-web-api-using-api-key-authentication-hmac-authentication/)
 2. [User Authentication with Angular and ASP.NET Core](https://fullstackmark.com/post/10/user-authentication-with-angular-and-asp-net-core)
 3. [Authentication In An ASP.NET Core API - Part 3: JSON Web Token](https://pioneercode.com/post/authentication-in-an-asp-dot-net-core-api-part-3-json-web-token)
@@ -21,6 +25,9 @@
 13. [ASP.NET Core Authorization Lab](https://github.com/blowdart/AspNetAuthorizationWorkshop)
 
 14. [Authentication In A Dot Net Core API](https://pioneercode.com/post/authentication-in-an-asp-dot-net-core-api-part-3-json-web-token)
+
+15. [A better way to handle authorization in ASP.NET Core](https://www.thereformedprogrammer.net/a-better-way-to-handle-authorization-in-asp-net-core/)
+16. [Adding the “better ASP.NET Core authorization” code into your app](https://www.thereformedprogrammer.net/part-7-adding-the-better-asp-net-core-authorization-code-into-your-app/)
 
 ### 第一步 添加 [Authorize] 特性
 在 MVC 中添加此特性，将导致 500错误，除非指定 Authentication 选项
