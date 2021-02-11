@@ -10,7 +10,7 @@ ip: 172.26.205.71
 80 服务 - gitlab 网站
 
 ### 实验过程
-1、目标服务器生成密钥
+1、目标服务器生成密钥  - Window powershell 运行
 ```
 ssh-keygen -t rsa 
 # -t type  rsa1(SSH1)/dsa(SSH2)/ecdsa(SSH2)/rsa(SSH2) 等类型
@@ -22,6 +22,16 @@ ssh-keygen -t rsa
 公钥文件名 id_rsa.pub
 
 2. 推送公钥文件到中转服务器
+Windows
+```
+pscp -P 56022 c:\users\hcc\.ssh\id_rsa.pub hcc@202.175.81.201:.ssh/authorized_keys
+```
+
+The permissions of ~/.ssh on the server should be 700. 
+The file ~/.ssh/authorized_keys (on the server) is supposed to have a mode of 600. 
+The permissions of the (private) key on the client-side should be 600.
+
+Linux
 ```
 ssh-copy-id demo8@172.26.196.79
 ```

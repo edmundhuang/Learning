@@ -4,6 +4,7 @@
 2. [基本命令](./BasicCommand.md)
 3. [SSH 反向隧道](./ReverseSSH.md)
 4. [防火墙](./firewall.md)
+5. [FRP](./frp.md)
 
 ### Tips
 1. 如何查看系统版本  

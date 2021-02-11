@@ -1,5 +1,8 @@
 # Authentication and Authorization
 
+Windows Identity Authorization
+https://haithamshaddad.com/2017/12/29/web-api-with-windows-authentication-on-asp-net-core-2/
+
 
 
 ### Reference

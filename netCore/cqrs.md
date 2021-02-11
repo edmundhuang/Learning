@@ -33,3 +33,10 @@ Frontend < -- > Web API (Controller) < -- > CommandBus(Command) < -- > CommandHa
 
 # EventFlow 
 http://docs.geteventflow.net/
+
+### Event Sourcing
+1. [Simple Event Sourcing With C#](https://medium.com/swlh/simple-event-souring-with-c-ec1eff55ee9d)  
+https://github.com/mickeysden/event-sourcing-cqrs-sample  
+2. [Event Sourcing pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing)  
+
+

@@ -1,5 +1,7 @@
 # Blazor 学习
 
+1. [Creating a DataGrid component in Blazor](https://www.meziantou.net/creating-a-datagrid-component-in-blazor.htm)
+
 1. [开包即食的教程带你浅尝最新开源的C# Web引擎 Blazor](https://www.csharpkit.com/2018-03-24_60326.html)
 
 2. Nginx + Blazor + Docker 注意事项
