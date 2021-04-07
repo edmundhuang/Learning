@@ -28,12 +28,3 @@ dotnet run
 Navigate to http://localhost:5000/.well-known/openid-configuration
 
 
-### Add api scope
-
-```cs 
-public static IEnumerable<ApiScope> ApiScopes =>
-    new List<ApiScope>
-    {
-        new ApiScope("api1", "My API")
-    };
-```
