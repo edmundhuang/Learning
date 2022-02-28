@@ -30,6 +30,7 @@
 4. [MVVM](./mvvm.md)
 5. [Virtualization Data](./Virtualization.md)
 6. [Debouncing and Throttling Dispatcher Events](./debouncing.md)
+7. [Behavior](./Behavior.md)
 
 ## UI 风格  
 1. [Material Design](./materialDesign.md)

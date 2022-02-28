@@ -18,3 +18,17 @@ Step 2: Connect your existing repository to Bitbucket
 git remote add origin https://edmundhuang@bitbucket.org/edmundhuang/temple.git
 git push -u origin master
 ```
+
+2. 导出差异，应用到另外一个repo
+生成patch 文件
+```
+git format-patch 70685bb3
+```
+console output as below  
+> PS D:\P\Larc\Larc.CasinoAsset> git format-patch 70685bb3  
+0001-try-master-detail-ui.patch
+
+应用patch
+```
+git apply 0001-try-master-detail-ui.patch
+```
