@@ -1,5 +1,7 @@
 # Azure 
 
+* [常用命令](./common.md)
+
 创建虚拟机需要6个基本资源 Resource
 * Virtual network 虚拟网络
 * Public IP address 公共IP分配

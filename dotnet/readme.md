@@ -1,6 +1,7 @@
 # Dotnet
 
 1. [Authentication](./Auth/Readme.MD)
+2. [Roslyn](./Roslyn/README.md)
 
 ![net core pipeline](./assets/aspnet-core-pipeline-with-middleware.png)
 
