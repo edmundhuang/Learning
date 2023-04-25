@@ -1,0 +1,101 @@
+Microsoft Windows [版本 10.0.19043.1348]
+(c) Microsoft Corporation。保留所有权利。
+
+D:\Apps\sd\stable-diffusion-webui>webui-user.bat
+Creating venv in directory D:\Apps\sd\stable-diffusion-webui\venv using python "C:\Users\edmund.wong\AppData\Local\Programs\Python\Python310\python.exe"
+venv "D:\Apps\sd\stable-diffusion-webui\venv\Scripts\Python.exe"
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+Commit hash: 22bcc7be428c94e9408f589966c2040187245d81
+Installing torch and torchvision
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/cu117
+Collecting torch==1.13.1+cu117
+  Downloading https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp310-cp310-win_amd64.whl (2255.4 MB)
+     ---------------------------------------- 2.3/2.3 GB 506.5 kB/s eta 0:00:00
+Collecting torchvision==0.14.1+cu117
+  Downloading https://download.pytorch.org/whl/cu117/torchvision-0.14.1%2Bcu117-cp310-cp310-win_amd64.whl (4.8 MB)
+     ---------------------------------------- 4.8/4.8 MB 7.4 MB/s eta 0:00:00
+Collecting typing-extensions
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting pillow!=8.3.*,>=5.3.0
+  Downloading Pillow-9.5.0-cp310-cp310-win_amd64.whl (2.5 MB)
+     ---------------------------------------- 2.5/2.5 MB 1.7 MB/s eta 0:00:00
+Collecting requests
+  Downloading requests-2.28.2-py3-none-any.whl (62 kB)
+     ---------------------------------------- 62.8/62.8 kB 3.5 MB/s eta 0:00:00
+Collecting numpy
+  Downloading numpy-1.24.3-cp310-cp310-win_amd64.whl (14.8 MB)
+     ---------------------------------------- 14.8/14.8 MB 4.1 MB/s eta 0:00:00
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp310-cp310-win_amd64.whl (97 kB)
+     ---------------------------------------- 97.1/97.1 kB 2.8 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading https://download.pytorch.org/whl/certifi-2022.12.7-py3-none-any.whl (155 kB)
+     ---------------------------------------- 155.3/155.3 kB 9.1 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading https://download.pytorch.org/whl/idna-3.4-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.5/61.5 kB 3.2 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.15-py2.py3-none-any.whl (140 kB)
+     ---------------------------------------- 140.9/140.9 kB 1.7 MB/s eta 0:00:00
+Installing collected packages: urllib3, typing-extensions, pillow, numpy, idna, charset-normalizer, certifi, torch, requests, torchvision
+Successfully installed certifi-2022.12.7 charset-normalizer-3.1.0 idna-3.4 numpy-1.24.3 pillow-9.5.0 requests-2.28.2 torch-1.13.1+cu117 torchvision-0.14.1+cu117 typing-extensions-4.5.0 urllib3-1.26.15
+
+[notice] A new release of pip available: 22.2.1 -> 23.1.1
+[notice] To update, run: D:\Apps\sd\stable-diffusion-webui\venv\Scripts\python.exe -m pip install --upgrade pip
+Traceback (most recent call last):
+  File "D:\Apps\sd\stable-diffusion-webui\launch.py", line 355, in <module>
+    prepare_environment()
+  File "D:\Apps\sd\stable-diffusion-webui\launch.py", line 260, in prepare_environment
+    run_python("import torch; assert torch.cuda.is_available(), 'Torch is not able to use GPU; add --skip-torch-cuda-test to COMMANDLINE_ARGS variable to disable this check'")
+  File "D:\Apps\sd\stable-diffusion-webui\launch.py", line 121, in run_python
+    return run(f'"{python}" -c "{code}"', desc, errdesc)
+  File "D:\Apps\sd\stable-diffusion-webui\launch.py", line 97, in run
+    raise RuntimeError(message)
+RuntimeError: Error running command.
+Command: "D:\Apps\sd\stable-diffusion-webui\venv\Scripts\python.exe" -c "import torch; assert torch.cuda.is_available(), 'Torch is not able to use GPU; add --skip-torch-cuda-test to COMMANDLINE_ARGS variable to disable this check'"
+Error code: 1
+stdout: <empty>
+stderr: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+AssertionError: Torch is not able to use GPU; add --skip-torch-cuda-test to COMMANDLINE_ARGS variable to disable this check
+
+
+请按任意键继续. . .
+
+D:\Apps\sd\stable-diffusion-webui>webui-user.bat
+venv "D:\Apps\sd\stable-diffusion-webui\venv\Scripts\Python.exe"
+Python 3.10.6 (tags/v3.10.6:9c7b4bd, Aug  1 2022, 21:53:49) [MSC v.1932 64 bit (AMD64)]
+Commit hash: 22bcc7be428c94e9408f589966c2040187245d81
+Installing gfpgan
+Installing clip
+Installing open_clip
+Cloning Stable Diffusion into D:\Apps\sd\stable-diffusion-webui\repositories\stable-diffusion-stability-ai...
+Cloning Taming Transformers into D:\Apps\sd\stable-diffusion-webui\repositories\taming-transformers...
+Cloning K-diffusion into D:\Apps\sd\stable-diffusion-webui\repositories\k-diffusion...
+Cloning CodeFormer into D:\Apps\sd\stable-diffusion-webui\repositories\CodeFormer...
+Cloning BLIP into D:\Apps\sd\stable-diffusion-webui\repositories\BLIP...
+Installing requirements for CodeFormer
+Installing requirements for Web UI
+Launching Web UI with arguments: --skip-torch-cuda-test
+Warning: caught exception 'Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx', memory monitor disabled
+No module 'xformers'. Proceeding without it.
+Downloading: "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors" to D:\Apps\sd\stable-diffusion-webui\models\Stable-diffusion\v1-5-pruned-emaonly.safetensors
+
+100%|█████████████████████████████████████████████████████████████████████████████| 3.97G/3.97G [08:47<00:00, 8.08MB/s]
+Calculating sha256 for D:\Apps\sd\stable-diffusion-webui\models\Stable-diffusion\v1-5-pruned-emaonly.safetensors: 6ce0161689b3853acaa03779ec93eafe75a02f4ced659bee03f50797806fa2fa
+Loading weights [6ce0161689] from D:\Apps\sd\stable-diffusion-webui\models\Stable-diffusion\v1-5-pruned-emaonly.safetensors
+Creating model from config: D:\Apps\sd\stable-diffusion-webui\configs\v1-inference.yaml
+LatentDiffusion: Running in eps-prediction mode
+DiffusionWrapper has 859.52 M params.
+Downloading (…)olve/main/vocab.json: 100%|██████████████████████████████████████████| 961k/961k [00:00<00:00, 1.24MB/s]
+Downloading (…)olve/main/merges.txt: 100%|██████████████████████████████████████████| 525k/525k [00:00<00:00, 1.33MB/s]
+Downloading (…)cial_tokens_map.json: 100%|████████████████████████████████████████████████████| 389/389 [00:00<?, ?B/s]
+Downloading (…)okenizer_config.json: 100%|████████████████████████████████████████████████████| 905/905 [00:00<?, ?B/s]
+Downloading (…)lve/main/config.json: 100%|████████████████████████████████████████████████| 4.52k/4.52k [00:00<?, ?B/s]
+Applying cross attention optimization (InvokeAI).
+Textual inversion embeddings loaded(0):
+Model loaded in 25.5s (calculate hash: 9.8s, load weights from disk: 0.2s, create model: 4.0s, apply weights to model: 9.0s, apply half(): 2.3s).
+Running on local URL:  http://127.0.0.1:7860
+
+To create a public link, set `share=True` in `launch()`.
+Startup time: 567.6s (import torch: 2.7s, import gradio: 3.9s, import ldm: 1.0s, other imports: 3.4s, list SD models: 528.2s, setup codeformer: 0.4s, load scripts: 1.3s, load SD checkpoint: 25.7s, create ui: 0.7s, gradio launch: 0.3s).

@@ -1,6 +1,7 @@
 # Azure 
 
 * [常用命令](./common.md)
+* [Media Service](./liveMedia.md)
 
 创建虚拟机需要6个基本资源 Resource
 * Virtual network 虚拟网络
